@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BSCH2-Novotny/1.0.0": {
+        "runtime": {
+          "BSCH2-Novotny.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BSCH2-Novotny/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

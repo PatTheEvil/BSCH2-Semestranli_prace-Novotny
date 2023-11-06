@@ -1,0 +1,49 @@
+﻿<Window x:Class="BSCH2_Novotny.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BSCH2_Novotny"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="742" Width="1000" SizeToContent="WidthAndHeight" ContentRendered="Window_ContentRendered">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="176*"/>
+            <ColumnDefinition Width="432*"/>
+            <ColumnDefinition Width="490*"/>
+            <ColumnDefinition Width="200*"/>
+        </Grid.ColumnDefinitions>
+        <ListView x:Name="Lw" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,10,155,10" Grid.ColumnSpan="4" SelectionMode="Single">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Content="Přidávání:" HorizontalAlignment="Right" Margin="0,10,10,0" VerticalAlignment="Top" Width="140" Height="25" Grid.Column="3"/>
+        <Button x:Name="Btn_prid_vojaka" Content="Přidat Vojáka" HorizontalAlignment="Right" Margin="0,40,10,0" VerticalAlignment="Top" Width="140" Height="20" Click="Btn_prid_vojaka_Click" Grid.Column="3"/>
+        <Button x:Name="Btn_prid_zbran" Content="Přidat Zbraň" HorizontalAlignment="Right" Margin="0,65,10,0" VerticalAlignment="Top" Width="140" Height="20" Click="Btn_prid_zbran_Click" Grid.Column="3"/>
+        <Button x:Name="Btn_prid_typ" Content="Přidat Typ Zbraně" HorizontalAlignment="Right" Margin="0,90,10,0" VerticalAlignment="Top" Width="140" Height="20" Click="Btn_prid_typ_Click" Grid.Column="3"/>
+        <Button x:Name="Btn_prid_munici" Content="Přidat Munici" HorizontalAlignment="Right" Margin="0,115,10,0" VerticalAlignment="Top" Width="140" Height="20" Click="Btn_prid_munici_Click" Grid.Column="3"/>
+        <Label Content="Zobrazenní:" HorizontalAlignment="Right" Margin="0,150,10,0" VerticalAlignment="Top" Height="25" Width="140" Grid.Column="3"/>
+        <Button x:Name="Btn_zobr_typy" Content="Zobrazit Typy Zbraní" HorizontalAlignment="Right" Margin="0,230,10,0" VerticalAlignment="Top" Width="140" Height="20" Click="Btn_zobr_typy_Click" Grid.Column="3"/>
+        <Button x:Name="Btn_zobr_vojaky" Content="Zobrazit Vojáky" HorizontalAlignment="Right" Margin="0,180,10,0" VerticalAlignment="Top" Width="140" Height="20" Click="Btn_zobr_vojaky_Click" Grid.Column="3"/>
+        <Button x:Name="Btn_zobr_zbrane" Content="Zobrazit Zbraně" HorizontalAlignment="Right" Margin="0,205,10,0" VerticalAlignment="Top" Width="140" Click="Btn_zobr_zbrane_Click" Grid.Column="3"/>
+        <Button x:Name="Btn_zobr_munici" Content="Zobrazit Munici" HorizontalAlignment="Right" Margin="0,255,10,0" VerticalAlignment="Top" Width="140" Height="20" Click="Btn_zobr_munici_Click" Grid.Column="3"/>
+        <Label Content="Úprava:" HorizontalAlignment="Right" Margin="0,290,10,0" VerticalAlignment="Top" Height="25" Width="140" Grid.Column="3"/>
+        <Button x:Name="Btn_uprav_vojaka" Content="Upravit vojáka" HorizontalAlignment="Right" Margin="0,320,10,0" VerticalAlignment="Top" Width="140" Height="20" Click="Btn_uprav_vojaka_Click" Grid.Column="3"/>
+        <Button x:Name="Btn_uprav_zbran" Content="Upravit Zbraň" HorizontalAlignment="Right" Margin="0,345,10,0" VerticalAlignment="Top" Width="140" Height="20" Click="Btn_uprav_zbran_Click" Grid.Column="3"/>
+        <Button x:Name="Btn_uprav_typ" Content="Upravit Typ Zbraně" HorizontalAlignment="Right" Margin="0,370,10,0" VerticalAlignment="Top" Width="140" Height="20" Click="Btn_uprav_typ_Click" Grid.Column="3"/>
+        <Button x:Name="Btn_uprav_munici" Content="Upravit Munici" HorizontalAlignment="Right" Margin="0,395,10,0" VerticalAlignment="Top" Width="140" Height="20" Click="Btn_uprav_munici_Click" Grid.Column="3"/>
+        <Label Content="Mazání:" HorizontalAlignment="Right" Margin="0,430,10,0" VerticalAlignment="Top" Width="140" Height="25" Grid.Column="3"/>
+        <Button x:Name="Btn_smaz_vojaka" Content="Smazat Vojáka" HorizontalAlignment="Right" Margin="0,460,10,0" VerticalAlignment="Top" Width="140" Height="20" Click="Btn_smaz_vojaka_Click" Grid.Column="3"/>
+        <Button x:Name="Btn_smaz_zbran" Content="Smazat Zbraň" HorizontalAlignment="Right" Margin="0,485,10,0" VerticalAlignment="Top" Width="140" Height="20" Click="Btn_smaz_zbran_Click" Grid.Column="3"/>
+        <Button x:Name="Btn_smaz_typ" Content="Smazat Typ Zbraně" HorizontalAlignment="Right" Margin="0,510,10,0" VerticalAlignment="Top" Width="140" Height="20" Click="Btn_smaz_typ_Click" Grid.Column="3"/>
+        <Button x:Name="Btn_smaz_munici" Content="Smazat Munici" HorizontalAlignment="Right" Margin="0,535,10,0" VerticalAlignment="Top" Width="140" Height="20" Click="Btn_smaz_munici_Click" Grid.Column="3"/>
+        <Button x:Name="Btn_smaz_vse" Content="Smazat Vše" HorizontalAlignment="Right" Margin="0,570,10,0" VerticalAlignment="Top" Width="140" Height="20" Click="Btn_smaz_vse_Click" Grid.Column="3"/>
+        <Label Content="Filtry Zbraní:" HorizontalAlignment="Right" Margin="0,605,10,0" VerticalAlignment="Top" Width="140" Height="25" Grid.Column="3"/>
+        <ComboBox x:Name="Cb_typ" HorizontalAlignment="Right" Margin="0,635,10,0" VerticalAlignment="Top" Width="140" Height="25" IsReadOnly="True" Grid.Column="3"/>
+        <ComboBox x:Name="Cb_munice" HorizontalAlignment="Right" Margin="0,665,10,0" VerticalAlignment="Top" Width="140" Height="25" IsReadOnly="True" Grid.Column="3"/>
+
+    </Grid>
+</Window>

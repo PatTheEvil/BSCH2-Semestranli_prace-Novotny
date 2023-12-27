@@ -77,7 +77,7 @@ namespace BSCH2_Novotny {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/BSCH2-Novotny;V1.0.0.0;component/addeditmunice.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/BSCH2-Novotny;component/addeditmunice.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\AddEditMunice.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

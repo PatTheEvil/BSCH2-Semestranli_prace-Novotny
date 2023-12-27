@@ -3,7 +3,6 @@ C:\Users\studi\source\repos\BSCH2-Semestranli_prace-Novotny\BSCH2-Novotny\BSCH2-
 C:\Users\studi\source\repos\BSCH2-Semestranli_prace-Novotny\BSCH2-Novotny\BSCH2-Novotny\bin\Debug\net6.0-windows\BSCH2-Novotny.runtimeconfig.json
 C:\Users\studi\source\repos\BSCH2-Semestranli_prace-Novotny\BSCH2-Novotny\BSCH2-Novotny\bin\Debug\net6.0-windows\BSCH2-Novotny.dll
 C:\Users\studi\source\repos\BSCH2-Semestranli_prace-Novotny\BSCH2-Novotny\BSCH2-Novotny\bin\Debug\net6.0-windows\BSCH2-Novotny.pdb
-C:\Users\studi\source\repos\BSCH2-Semestranli_prace-Novotny\BSCH2-Novotny\BSCH2-Novotny\obj\Debug\net6.0-windows\BSCH2-Novotny.csproj.AssemblyReference.cache
 C:\Users\studi\source\repos\BSCH2-Semestranli_prace-Novotny\BSCH2-Novotny\BSCH2-Novotny\obj\Debug\net6.0-windows\MainWindow.g.cs
 C:\Users\studi\source\repos\BSCH2-Semestranli_prace-Novotny\BSCH2-Novotny\BSCH2-Novotny\obj\Debug\net6.0-windows\App.g.cs
 C:\Users\studi\source\repos\BSCH2-Semestranli_prace-Novotny\BSCH2-Novotny\BSCH2-Novotny\obj\Debug\net6.0-windows\BSCH2-Novotny_MarkupCompile.cache
@@ -27,3 +26,4 @@ C:\Users\studi\source\repos\BSCH2-Semestranli_prace-Novotny\BSCH2-Novotny\BSCH2-
 C:\Users\studi\source\repos\BSCH2-Semestranli_prace-Novotny\BSCH2-Novotny\BSCH2-Novotny\obj\Debug\net6.0-windows\AddEditTyp.baml
 C:\Users\studi\source\repos\BSCH2-Semestranli_prace-Novotny\BSCH2-Novotny\BSCH2-Novotny\obj\Debug\net6.0-windows\AddEditZbran.g.cs
 C:\Users\studi\source\repos\BSCH2-Semestranli_prace-Novotny\BSCH2-Novotny\BSCH2-Novotny\obj\Debug\net6.0-windows\AddEditZbran.baml
+C:\Users\studi\Source\Repos\BSCH2-Semestranli_prace-Novotny\BSCH2-Novotny\BSCH2-Novotny\obj\Debug\net6.0-windows\BSCH2-Novotny.sourcelink.json

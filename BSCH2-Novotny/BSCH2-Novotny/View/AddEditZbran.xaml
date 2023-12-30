@@ -1,0 +1,33 @@
+﻿<Window x:Class="BSCH2_Novotny.AddEditZbran"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BSCH2_Novotny"
+        mc:Ignorable="d"
+        Title="AddEditZbran" Height="226" Width="300" ResizeMode="NoResize">
+    <Grid>
+
+        <Label Content="Název:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="70" Height="26"/>
+        <TextBox x:Name="Tb_nazev" Text="{Binding Nazev, Mode = TwoWay}" HorizontalAlignment="Left" Margin="85,13,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="190" Height="20"/>
+        <Label Content="Voják:" HorizontalAlignment="Left" Margin="10,41,0,0" VerticalAlignment="Top" Width="70" Height="26"/>
+
+        <ComboBox x:Name="Cb_vojak" HorizontalAlignment="Left" Margin="85,41,0,0" VerticalAlignment="Top" Width="190" Height="26" ItemsSource="{Binding Vojaci}" SelectedValuePath="Id" SelectedIndex="0">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock>
+                        <Run Text="{Binding Jmeno}" />
+                        <Run Text=" " />
+                        <Run Text="{Binding Prijmeni}" />
+                    </TextBlock>
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+        <Label Content="Typ Zbraně:" HorizontalAlignment="Left" Margin="10,72,0,0" VerticalAlignment="Top" Width="70" Height="26"/>
+        <ComboBox x:Name="Cb_typ" HorizontalAlignment="Left" Margin="85,72,0,0" VerticalAlignment="Top" Width="190" Height="26" ItemsSource="{Binding Typy}" DisplayMemberPath="Typ" SelectedValuePath="Id" SelectedIndex="0"/>
+        <Label Content="Munice:" HorizontalAlignment="Left" Margin="10,103,0,0" VerticalAlignment="Top" Width="70" Height="26"/>
+        <ComboBox x:Name="Cb_munice" HorizontalAlignment="Left" Margin="85,103,0,0" VerticalAlignment="Top" Width="190" Height="26" ItemsSource="{Binding Munice}" DisplayMemberPath="Raze" SelectedValuePath="Id" SelectedIndex="0"/>
+        <Button x:Name="Btn_storno" Content="Storno" HorizontalAlignment="Left" Margin="10,159,0,0" VerticalAlignment="Top" Height="20" Width="50" Command="{Binding CloseCommand}"/>
+        <Button x:Name="Btn_OK" Content="OK" HorizontalAlignment="Left" Margin="225,159,0,0" VerticalAlignment="Top" Height="20" Width="50" Command="{Binding AddVojakCommand}"/>
+    </Grid>
+</Window>

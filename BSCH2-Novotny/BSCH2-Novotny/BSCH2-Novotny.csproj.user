@@ -7,33 +7,33 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="AddEditMunice.xaml.cs">
+    <Compile Update="View\AddEditMunice.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="AddEditTyp.xaml.cs">
+    <Compile Update="View\AddEditTyp.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="AddEditVojak.xaml.cs">
+    <Compile Update="View\AddEditVojak.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="AddEditZbran.xaml.cs">
+    <Compile Update="View\AddEditZbran.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="AddEditMunice.xaml">
+    <Page Update="View\AddEditMunice.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="AddEditTyp.xaml">
+    <Page Update="View\AddEditTyp.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="AddEditVojak.xaml">
+    <Page Update="View\AddEditVojak.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="AddEditZbran.xaml">
+    <Page Update="View\AddEditZbran.xaml">
       <SubType>Designer</SubType>
     </Page>
-    <Page Update="MainWindow.xaml">
+    <Page Update="View\MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

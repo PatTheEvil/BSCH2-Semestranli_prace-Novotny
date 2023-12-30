@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8W1Xt4fUR7l/8HuXDcx0hLZRRGo+aLTECIjA9y1qn0Cwh1BR8oiTPQrLeNrFHv8Mn9VI4tKWbBmmZMuYyHLVkg==",
+  "dgSpecHash": "iKNgpDmPe0Bh+ts7yJ1yLTGzGPUeVe7142VEHMYTS3CVYVWBvNTqOYrww1zbWS5nnBJT5vKJ5VWlwvX+AGrztA==",
   "success": true,
   "projectFilePath": "C:\\Users\\studi\\source\\repos\\BSCH2-Semestranli_prace-Novotny\\BSCH2-Novotny\\BSCH2-Novotny\\BSCH2-Novotny.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\studi\\.nuget\\packages\\dapper\\2.1.24\\dapper.2.1.24.nupkg.sha512",
+    "C:\\Users\\studi\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.118\\stub.system.data.sqlite.core.netstandard.1.0.118.nupkg.sha512",
+    "C:\\Users\\studi\\.nuget\\packages\\system.data.sqlite.core\\1.0.118\\system.data.sqlite.core.1.0.118.nupkg.sha512"
+  ],
   "logs": []
 }
